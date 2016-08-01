@@ -1,0 +1,74 @@
+/* Inserta tu CSS aqui */
+* {
+	margin-top: 1%;
+	text-align: center;
+	font-family: 'Oswald', serif;;
+}
+/*PRIMERA PARTE*/
+/*MENÚ*/
+a {
+	color: black;
+	list-style:none;
+	margin-right: 5%;
+	margin-bottom: 1%;
+	text-decoration: none;	
+}
+/*IMAGEN DE FONDO*/
+#fondo {
+	padding-bottom: 10%;
+	background-size: 100% 175%;
+	background-image: url("../images/tapety.jpg"); 
+}
+#fondo2 {
+	background-size: 100% 150%;
+	background-image: url("../images/pastel.jpg");
+}
+/*NOMBRE - LOGO*/
+h1, span {
+	color: white;
+}
+/*SEGUNDA PARTE*/
+/*TEXTO*/
+h2 {
+	margin-top: 3%;
+}
+h2, .col-12 p {
+	color: #FF00BF;
+}
+.col-9 p {
+	text-align: justify;
+	padding-right: 5%;
+}
+/*IMAGENES*/
+.col-3 img {
+	padding: 2%;
+	border: 2px solid #FF00BF;
+}
+.img {
+	width: 100%;
+}
+.fav, .position {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%; 
+	margin-bottom: 15%;
+}
+/*EXTRA*/
+.position {
+	padding: 1%;
+	margin-left: 1.5%;
+	border: 4px dashed #F5A9F2;
+}
+/*FOOTER*/
+/*CONTACTO*/
+footer {
+	background-color: #E6E6E6;
+}
+a img {
+	margin-left: 2%;	
+	margin-bottom: 10%;
+}
+/*VALORES COMPARTIDOS*/
+a, .position, a img {
+	display: inline-block;
+}
